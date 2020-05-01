@@ -1,0 +1,300 @@
+/* CSS Document */
+
+/*BODY */
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+/*Headlines */
+h1{
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 10vw;
+	color: white;
+	
+}
+
+h2{
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 5vw;
+	
+}
+
+
+
+
+
+
+
+/*HEADER */
+
+header{
+	background-color: rgba(10,33,94,1.00);
+	position: relative;
+}
+/* Logo */
+.logo img{
+	width: 100%;
+	padding: 5%;
+	margin: 10% 15%;
+}
+
+
+/* Navigation Menu */
+nav {
+	font-size: 1.8vw;
+	text-align: right;
+	margin: 1.5% 5%;
+}
+
+nav a:link {
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	display: inline;
+	text-decoration: none;
+	border-left: solid;
+	padding: 0 3%;
+	
+}
+nav a.active{
+	border: none;
+}
+nav a:visited {
+	color: white;
+}
+
+nav a:hover{
+	background-color: white;
+	color:rgba(10,33,94,1.00);
+}
+
+/* CONTENT */
+
+.container-content{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/* Title Section */
+
+
+.title-container{
+	background-image: url("../images/ToyStory_Image1.jpg");
+	background-position: top;
+	background-size: cover;
+	padding: 0.5% 0%;
+	margin-top: 2%;
+}
+.title-container h1{
+	font-size: 12vw;
+	background-color: rgba(15,25,53,0.90);
+	margin: 8% 7% 8% 7%;
+	padding: 1% 2%;
+	text-align: center;
+	padding-right: 1%;
+}
+	
+
+/* ROW 1 */
+
+/* Synopsis */
+
+.synopsis{
+	background-color: rgba(8,24,70,1.00);
+	margin-top: 3%;
+	margin-bottom: 1%;
+}
+
+.image-container-poster {
+	width: 40%;
+	float: left;
+}
+.image-container-poster img{
+	width: 100%;
+	margin: 10% 6%;
+}
+
+.text-synopsis{
+	padding: 4% 0 0;
+}
+.synopsis-headline h1{
+	font-size: 4.5vw;
+	background-color: rgba(195,11,14,1.00);
+	color: rgba(255,208,12,1.00);
+	margin-left: 45%;
+	margin-right: 6%;
+	padding-left: 3%;
+}
+.text-synopsis p{
+	font-size: 1.2vw;
+	padding-left: 45%;
+	padding-right: 2%;
+	color: white;
+	
+}
+
+/* Facts */
+
+.movie-facts{
+	margin: 6% 0% 6% 0%;
+	padding: 6% 5% 15%;
+	background-color: rgba(223,223,223,1.00);
+}
+.movie-facts h2{
+	font-size: 4vw;
+	text-align: center;
+}
+
+ul.facts-of-movie{
+	padding:0;
+}
+.facts-of-movie li{
+	list-style: none;
+	font-size: 1.365vw;
+}
+.fact-span{
+	font-weight: 600;
+}
+.image-container-pixar{
+	width: 60%;
+	margin: 5% 1%;
+}
+.see-more-of-pixar a:link{
+	color:rgba(78,78,78,0.90);
+	/*background-color: rgba(66,66,78,0.84); */
+	border-radius: 10px;
+	border-style: solid;
+	border-width: thin;
+	text-align: center;
+	width: 45%;
+	text-decoration: none;
+	font-size: 1.5vw;
+	margin: 1% 17% 1%;
+	padding: 1% 2%;
+}
+.see-more-of-pixar a:hover{
+	color: white!important;
+	background-color: rgba(5,5,81,0.84); 
+}
+.see-more-of-pixar a:visited{
+	color:rgba(78,78,78,0.84);
+}
+
+
+/* TABS */
+.about-the-movie{
+	font-size: 5vw;
+	background-color: rgba(195,11,14,1.00);
+	color: rgba(255,208,12,1.00);
+	text-align: center;
+}
+.nav-item a{
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 3.5vw;
+	color: white;
+}
+.nav-item a:hover{
+	background-color: rgba(38,65,138,1.00);
+}
+#pills-tabContent{
+	border:rgba(10,33,94,1.00);
+	border-style: solid;
+	border-width: thick;
+	padding: 2%;
+}
+#pills-tab{
+	background-color: rgba(10,33,94,1.00);
+}
+
+
+.subheadline{
+	font-size: 4vw;
+	text-align: center;
+	margin-bottom: 3%;
+	background-color: rgba(216,216,216,1.00);
+}
+
+
+/* Cast */
+.image-container-cast{
+	width: 100%;
+}
+.image-container-cast img{
+	width: 100%;
+	margin-bottom: 3%;
+}
+.text-cast h3{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.2vw;
+	text-align: center;
+	font-weight: 600;
+	color:white;
+	background-color: rgba(6,21,62,0.95);
+}
+.character{
+	font-size: 1.8vw;
+}
+
+
+/* Production */
+
+#pills-production p{
+	color: black;
+}
+
+#produciton-video{
+	width: 100%;
+	height: auto;
+}
+
+#produciton-video iframe{
+	width: 100%;
+	height: 350px;
+}
+
+.carousel-cap{
+	color:white!important;
+	background-color:rgba(0,0,0,0.85);
+	margin-top: 2%;
+	text-align: center;
+	font-weight: 300;
+}
+#Andys-house h3{
+	font-weight: 600;
+	font-size: 2vw;
+	text-align: center;
+}
+
+
+/* Video */
+.video-gallery{
+	width: 100%;
+	height: 320px;
+	margin-bottom: 3%;
+}
+
+/* SIDE INFO */
+.side-info{
+	background-color: rgba(223,223,223,1.00);
+	padding: 5%;
+}
+.about-the-studio{
+	font-size: 4vw;
+	color: black;
+	text-align: center;
+}
+.image-container-logo img {
+	width: 100%; 
+	margin: 4% 0%;
+}
+
+#mapdiv{
+	width: 100%;
+}
+
+.clearfloat{
+	clear: both;
+}

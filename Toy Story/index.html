@@ -1,0 +1,467 @@
+<!doctype html>
+<html>
+	
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Javier Gonzalez">
+
+<!-- Gives a name to the Page-->
+<title>Project 2: Toy Story</title>
+	
+<!-- Add Fonts-->	
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;600;900&display=swap" rel="stylesheet">	
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+	
+<!-- load Bootstrap's CSS-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+
+<!-- load my custom CSS-->
+<link href="css/custom.css" rel="stylesheet">
+<link href="css/interactive.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="home">
+<div class="container">	
+	
+<header>
+	<div class="row">
+		
+	<div class="col-1">	
+		<!-- adds logo-->
+		<div class="logo">
+			<a  href="#"> <img class="brandLogo" src="images/Toy_Story_logo.png" alt="Logo"> </a>
+		</div><!-- brand -->
+	</div><!-- col 1 -->
+	
+	<div class="col-11">	
+		<!-- navigation menu-->
+	  	<nav>		
+    		<a class="active" href="#">Home</a>  
+			<a href="#">Gallery</a>		 
+    		<a href="#">Sequels</a>	  
+			<a href="#">More by Pixar</a>	 
+    	</nav>
+	</div><!-- col 11 -->
+	
+	</div><!-- row -->
+	
+</header>
+	
+<!-- Beginning of content-->	
+<div class="container-content">   
+
+	<div class="row">
+		<div class="col-12">
+			<div class="title-container">
+			<h1>TOY STORY</h1>
+			</div><!-- title container-->
+		</div><!-- col 12 -->
+		
+		<div class="col-8">
+			<div class="synopsis">
+			<div class="image-container-poster">
+				<img class="brandLogo" src="images/poster.jpg" alt="Poster">
+			</div><!-- image container -->
+			
+			<div class="text-synopsis">
+				<div class="synopsis-headline">
+					<h1> Synopsis </h1>
+				</div>
+				<p>Ever wonder what toys do when people aren't around? Toy Story answers that question with a fantastic fun-filled journey, viewed mostly through the eyes of two rival toys – Woody, the lanky, likable cowboy, and Buzz Lightyear, the fearless space ranger.  Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz.</p>
+
+				<p>But when circumstances separate Buzz and Woody from their owner, the comically-mismatched duo eventually learn to put aside their differences, and they find themselves on a hilarious adventure-filled mission where the only way they can survive is to form an uneasy alliance.</p>
+				<br class="clearfloat">
+			</div><!-- text of synopsis -->
+			
+			</div><!-- Synopsis -->
+			
+		</div><!-- col 8 -->
+		
+		<div class="col-4">	
+			
+		<div class="movie-facts">
+			<h2>Facts</h2>
+			<ul class="facts-of-movie">
+		
+				<li class="facts-item"> <span class="fact-span">Directed by:</span> John Lasseter</li>
+				<li class="facts-item"> <span class="fact-span">Screenplay by:</span> 
+										<ul class="writers">
+											<li>Joss Whedon</li>
+											<li>Andrew Stanton</li>
+											<li>Joel Cohen</li>
+											<li>Alec Sokolow</li>
+										</ul>
+									</li>
+				<li class="facts-item"> <span class="fact-span">Release date:</span> November 22, 1995</li>
+				<li class="facts-item"> <span class="fact-span">Running time:</span> 81 minutes</li>
+				<li class="facts-item"> <span class="fact-span">Sequel:</span> Toy Story 2</li>
+				<li class="facts-item"> <span class="fact-span">Production Company:</span> 
+										<ul class="production company">
+											<li>Walt Disney Pictures</li>
+											<li>Pixar Animation Studios</li>
+										</ul>
+									</li>
+			</ul>
+			
+			<div class="see-more-of-pixar">
+				<h3> <a href="#">See more of Pixar</a></h3>
+			</div><!-- see more button -->
+		</div><!-- movie facts -->
+		</div><!-- col 4 -->
+		
+		<div class="col-12" id="Timeline">
+			<iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1osqZ1xjOKBwgMAMrlNPtSHXhbY4Q9hBn_cc5J1zAOiw&font=Default&lang=en&initial_zoom=2&height=650" width="100%" height="650" webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder="0"></iframe>
+		</div><!-- col 12 -->
+		
+		<div class="col-8"><!-- about the movie-->
+			
+			<h1 class="about-the-movie">About the movie</h1>
+			
+			<!-- adds tabs navigation-->
+			<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+				<li class="nav-item"><!-- cast tab-->
+   					<a class="nav-link active" id="pills-cast-tab" data-toggle="pill" href="#pills-cast" role="tab" aria-controls="pills-cast" aria-selected="true">Cast</a>
+  				</li>
+				<li class="nav-item"><!-- production tab-->
+    				<a class="nav-link" id="pills-production-tab" data-toggle="pill" href="#pills-production" role="tab" aria-controls="pills-production" aria-selected="false">Production</a>
+  				</li>
+  				<li class="nav-item"><!-- videos tab-->
+    				<a class="nav-link" id="pills-videos-tab" data-toggle="pill" href="#pills-videos" role="tab" aria-controls="pills-videos" aria-selected="false">Videos</a>
+  				</li>
+  				
+			</ul><!-- tabs of navigation-->
+			
+			<div class="tab-content" id="pills-tabContent">
+  				<!-- cast content-->
+				<div class="tab-pane fade show active" id="pills-cast" role="tabpanel" aria-labelledby="pills-cast-tab">
+					<div class="row">
+						<div class="col-4">
+							<div class="image-container-cast">
+								<img src="images/Woody.jpg" alt="Cast1">
+							</div><!-- image container cast-->
+							<div class="text-cast">
+								<h3>Tom Hanks as <br> <span class="character">Woody</span></h3>
+							</div><!-- image container cast-->
+						</div><!-- column 4-->
+						
+						<div class="col-4">
+							<div class="image-container-cast">
+								<img src="images/buzz.jpg" alt="Cast2">
+							</div><!-- image container cast-->
+							<div class="text-cast">
+								<h3>Tim Allen as <br><span class="character">Buzz Lightyear</span></h3>
+							</div><!-- image container cast-->
+						</div><!-- column 4-->
+						
+						<div class="col-4">
+							<div class="image-container-cast">
+								<img src="images/mr-potato-head.jpg" alt="Cast3">
+							</div><!-- image container cast-->
+							<div class="text-cast">
+								<h3>Don Rickles as <br><span class="character">Mr. Potato Head</span></h3>
+							</div><!-- image container cast-->
+						</div><!-- column 4-->
+						
+						<div class="col-4">
+							<div class="image-container-cast">
+								<img src="images/Slinky.jpg" alt="Cast4">
+							</div><!-- image container cast-->
+							<div class="text-cast">
+								<h3>Jim Varney as <br><span class="character">Slinky Dog</span></h3>
+							</div><!-- image container cast-->
+						</div><!-- column 4-->
+						
+						<div class="col-4">
+							<div class="image-container-cast">
+								<img src="images/rex.jpg" alt="Cast5">
+							</div><!-- image container cast-->
+							<div class="text-cast">
+								<h3>Wallace Shawn as <br><span class="character">Rex</span></h3>
+							</div><!-- image container cast-->
+						</div><!-- column 4-->
+						
+						<div class="col-4">
+							<div class="image-container-cast">
+								<img src="images/Hamm.jpg" alt="Cast6">
+							</div><!-- image container cast-->
+							<div class="text-cast">
+								<h3>John Ratzenberger as <br><span class="character">Hamm</span></h3>
+							</div><!-- image container cast-->
+						</div><!-- column 4-->
+						
+						<div class="col-4">
+							<div class="image-container-cast">
+								<img src="images/Bo-peep.jpg" alt="Cast7">
+							</div><!-- image container cast-->
+							<div class="text-cast">
+								<h3>Annie Potts as <br><span class="character">Bo Peep</span></h3>
+							</div><!-- image container cast-->
+						</div><!-- column 4-->
+						
+						<div class="col-4">
+							<div class="image-container-cast">
+								<img src="images/Andy.jpg" alt="Cast8">
+							</div><!-- image container cast-->
+							<div class="text-cast">
+								<h3>John Morris as <br><span class="character">Andy Davis</span></h3>
+							</div><!-- image container cast-->
+						</div><!-- column 4-->
+						
+						<div class="col-4">
+							<div class="image-container-cast">
+								<img src="images/Sid.jpg" alt="Cast9">
+							</div><!-- image container cast-->
+							<div class="text-cast">
+								<h3>Erik von Detten as <br><span class="character">Sid Phillips</span></h3>
+							</div><!-- image container cast-->
+						</div><!-- column 4-->
+						
+					</div><!-- row-->
+				</div><!-- cast content-->
+				
+				<!-- production content-->
+				<div class="tab-pane fade" id="pills-production" role="tabpanel" aria-labelledby="pills-production-tab">
+					<div class="row">
+						<div class="col-5" id="production-content">
+							<p>Pixar’s creative team turned to the experienced hands at Disney to help create a feature-length film with broad appeal. Disney executives wanted to ensure Toy Story had an edge, and the Pixar team pushed the edge until one Friday—a year into production—when they showed a rough cut to Disney. It wasn’t the film John Lasseter and Pixar wanted to make. It wasn’t the film Disney wanted, either, and the studio ordered the production shut down. It was up to the Pixar team to trust its instincts and save the movie.
+							</p>
+						</div><!-- column 5-->
+						
+						<div class="col-7" id="produciton-video">
+							<iframe width="1065" height="599" src="https://www.youtube.com/embed/KY5epYKAQSY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div><!-- column 7-->
+						
+						<div class="col-12">
+							<h2 class="subheadline">Character Design</h2>
+						</div><!-- column 12-->
+						
+						<div class="col-5">
+							  <div id="carouselCharacterDesign" class="carousel slide" data-ride="carousel">
+          							<ol class="carousel-indicators">
+            							<li data-target="#carouselCharacterDesign" data-slide-to="0" class="active"></li>
+            							<li data-target="#carouselCharacterDesign" data-slide-to="1"></li>
+          							</ol>
+
+          							<div class="carousel-inner">
+
+            							<div class="carousel-item active">
+             								<img src="images/CD-Woody.jpg" class="d-block w-100" alt="woody1">
+          								</div><!-- carousel-item -->
+
+        								<div class="carousel-item">
+           									<img src="images/CD-Buzz.jpg" class="d-block w-100" alt="buzz1">
+           									
+        								</div><!-- carousel-item -->
+										
+
+
+      								</div><!-- carousel-inner -->
+
+      <a class="carousel-control-prev" href="#carouselCharacterDesign" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#carouselCharacterDesign" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- carousel -->
+							<p class="carousel-cap">Character Design sketch of Woody and Buzz Lightyear</p>
+						</div><!-- column 5-->
+						
+						<div class="col-7">
+							<p class="production-text">The filmmakers assembled the Toy Story cast from a wealth of childhood memories. But for the story to work, the two main characters needed to have their own chemistry. Early versions of Woody included a ventriloquist's dummy and an ill-tempered cowboy before he became the affable hero seen on screen. Buzz Lightyear offered a different challenge: inventing a brand-new toy that instantly felt familiar.<br><br>
+							
+							Woody is a traditional kind of toy, with his pull-string voice box and cowboy detailing. He has long enjoyed a place of honor as the favorite among six-year-old Andy's toys—until Buzz Lightyear crash-lands and shakes up his world. This space ranger action figure has it all: a laser beam, karate-chop action, pop-out wings, and a belief that he's on a secret mission for Star Command.</p>
+						</div><!-- column 7-->
+						
+						
+						
+						<div class="col-12">
+							<h2 class="subheadline">World Design</h2>
+						</div><!-- column 12-->
+						
+						<div class="col-5" id="Andys-house">
+							<h3>Andy's House</h3>
+							<p>Andy’s room was a world of its own, home to most of Toy Story’s characters and a place that immediately conveyed comfort and safety. That sense of safety provided the conflict as the characters faced new anxieties like leaving the house and welcoming a new toy.</p>
+						</div><!-- column 5-->
+						
+						<div class="col-7">
+							<div id="carouselAndysHouse" class="carousel slide" data-ride="carousel">
+          							<ol class="carousel-indicators">
+            							<li data-target="#carouselAndysHouse" data-slide-to="0" class="active"></li>
+            							<li data-target="#carouselAndysHouse" data-slide-to="1"></li>
+          							</ol>
+
+          							<div class="carousel-inner">
+
+            							<div class="carousel-item active">
+             								<img src="images/andys-room.jpg" class="d-block w-100" alt="Andys-House">
+             								
+          								</div><!-- carousel-item -->
+
+        								<div class="carousel-item">
+           									<img src="images/andys-room-2.jpg" class="d-block w-100" alt="Andys-House">
+           									
+        								</div><!-- carousel-item -->
+										
+
+
+      								</div><!-- carousel-inner -->
+
+      <a class="carousel-control-prev" href="#carouselAndysHouse" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#carouselAndysHouse" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- carousel -->
+						</div><!-- column 7-->
+									
+					</div><!-- row-->
+				</div><!-- production content-->
+				
+  				<!-- videos content-->
+				<div class="tab-pane fade" id="pills-videos" role="tabpanel" aria-labelledby="pills-videos-tab">
+					<div class="row">
+						<div class="col-12">
+							<h2 class="subheadline"> Teaser Trailer 2</h2>
+						</div><!-- col 12-->
+						
+						<div class="col-12" >
+							<iframe class="video-gallery"  src="https://www.youtube.com/embed/QqIRLEg521Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div><!-- col 12-->
+						
+						<div class="col-12">
+							<h2 class="subheadline"> Trailer 1</h2>
+						</div><!-- col 12-->
+						
+						<div class="col-12">
+							<iframe class="video-gallery" src="https://www.youtube.com/embed/T_BXsjiFa0M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div><!-- col 12-->
+						
+						<div class="col-12">
+							<h2 class="subheadline"> Character Animation</h2>
+						</div><!-- col 12-->
+						
+						<div class="col-12">
+							<iframe class="video-gallery" src="https://www.youtube.com/embed/Za1I3WJhrI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div><!-- col 12-->
+						
+						<div class="col-12">
+							<h2 class="subheadline"> The making of a Scene</h2>
+						</div><!-- col 12-->
+						
+						<div class="col-12">
+							<iframe class="video-gallery" src="https://www.youtube.com/embed/LZN0WLWhuAI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div><!-- col 12-->
+					</div><!-- row-->
+				</div><!-- videos content-->
+				
+			</div><!-- tab content -->
+		
+		</div><!-- col 8 -->
+		
+		
+		
+		<div class="col-4"><!-- about the studio-->
+			<div class="side-info">
+				<h1 class="about-the-studio">About the studio</h1>
+				
+				<ul class="facts-of-movie">
+		
+				<li class="facts-item"> <span class="fact-span">Name:</span> Pixar Animation Studio</li>
+				<li class="facts-item"> <span class="fact-span">Industry:</span> 
+										<ul class="writers">
+											<li>Computer Animation</li>
+											<li>Motion Pictures</li>
+										</ul>
+									</li>
+				<li class="facts-item"> <span class="fact-span">Founded:</span> February 3, 1986</li>
+				<li class="facts-item"> <span class="fact-span">Running time:</span> 81 minutes</li>
+				<li class="facts-item"> <span class="fact-span">President:</span> Jim Morris</li>
+				<li class="facts-item"> <span class="fact-span">CCO:</span> Pete Docter</li>
+				<li class="facts-item"> <span class="fact-span">Website:</span><a href="http://pixar.com/"> pixar.com</a></li>
+				<li class="facts-item"> <span class="fact-span">Logo:</span> 
+					<div class="image-container-logo">
+					<img src="images/1280px-Pixar_logo.png" alt="Logo-company">	
+					</div>
+				</li>
+				<li class="facts-item"> <span class="fact-span">Headquarters:</span> 
+					
+					<!-- adds leaflet map-->					
+					<div id="mapid"></div>
+					
+									</li>
+			</ul>
+				
+			</div><!-- side info-->
+		</div><!-- col 4 -->
+		
+		
+	</div><!-- row-->
+	
+</div> <!-- /container -->
+
+</div>
+
+<!-- load our external JavaScript assets such as Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- load the JavaScript mapping libraries into your page -->
+<!-- remember: this code goes BELOW the Bootstrap libraries you are loading -->
+
+<!-- load the openlayers library, so we can overlay objects on customized maps-->
+<script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+
+<!-- load the stamen map tile library to use custom tiles -->
+<script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
+<!-- here, we load the JavaScript mapping libraries into your page -->
+<!-- remember: this code goes BELOW the Bootstrap libraries you are loading -->
+
+<!-- load the leaflet maps library-->
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+
+<script>
+// 1st we create a map, here called "mymap" - this is the same name as the map div in the HTML
+// note: the Leaflet mapping library wants the address in the form of latitude, longitude
+var mymap = L.map('mapid').setView([37.83286, -122.28400], 13);
+
+//add the map tile layer that is the source of the map tiles (its appearance)
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+
+    //set the default zoom level
+    maxZoom: 18,
+
+    //set the map's attributions
+    //note: this info does not pertain to our class
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+    '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+    'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    id: 'mapbox/streets-v11',
+    tileSize: 512,
+    zoomOffset: -1
+  })
+
+//add the map tile layer to the map (which is called mymap, created above)
+.addTo(mymap);
+
+//use the same lat/long as above to add the marker to the center of the map
+L.marker([37.83286, -122.28400]).addTo(mymap)
+
+//then, if the marker is clicked, attach (or, "bind") your HTML content to open as a pop-up:
+/*.bindPopup('<img class="map-thumbnail" src="https://launchandsell.com/wp-content/uploads/2018/03/ls_blog_free-affordable-feminine-stock-photography_hautestock-2.jpg" /><h1>Make A Difference Today</h1><p>A brief message with a <a href="https://github.com/JWC-WDC/web-dev-design" target="_blank">Call To Action</a>.</p>').openPopup();*/
+</script>
+<!-- end the custom map code -->
+</body>
+</html>
