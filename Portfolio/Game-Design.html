@@ -1,0 +1,477 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Javier Gonzalez: Home</title>
+	
+	
+<!-- load custom font kit -->	
+<link rel="stylesheet" href="webfontkit-20200225-150217/stylesheet.css" type="text/css" charset="utf-8" />
+
+<!-- Google Fonts -->	
+<link href="https://fonts.googleapis.com/css2?family=Neucha&family=Passion+One&display=swap" rel="stylesheet">
+
+<!-- load Bootstrap's CSS-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	
+<!-- stylesheet -->
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<!-- responsive stylesheet -->
+<link href="css/responsive-styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="sidebar" id="mySidebar">
+			
+			<div class="menu-headline">
+				<h1>Menu</h1>
+			</div><!-- menu headline -->
+				<a class="closebtn" href="javascript:void(0)" onclick="closeNav()">&times;</a>
+				<a href="index.html"><h2>Home</h2></a>
+				<a href="about-me.html" target="_blank"><h2>About me</h2></a>
+				<h2 class="sidebar-headiline">Portfolio</h2>
+				<a href="Game-Design.html" target="_blank"><h3 class="portfolio-side">Game Design</h3></a>
+				<a href="#" target="_blank"><h3 class="portfolio-side">Animation</h3></a>
+				<a href="#" target="_blank"><h3 class="portfolio-side">Illustration</h3></a>
+				<a href="#" target="_blank"><h3 class="portfolio-side">Drawings</h3></a>
+				<a href="#" target="_blank"><h3 class="portfolio-side">Others</h3></a>
+		</div><!-- sidebar -->
+		<div id="main">
+				<div class="openbtn" onclick="openNav()">
+					<div class="hamburger-menu">
+						<img src="images/Hamburger-menu.svg" alt="menu">
+					</div><!-- hamburger-menu -->
+				</div>
+			</div>
+			<script>
+			                 function openNav() {
+			                     document.getElementById("mySidebar").style.width = "250px";
+			                     document.getElementById("main").style.marginLeft = "250px";
+			                 }
+			                 
+			                 function closeNav() {
+			                     document.getElementById("mySidebar").style.width = "0";
+			                     document.getElementById("main").style.marginLeft= "0";
+			                 }
+			</script>
+		<header>
+			<div class="imageContainer-logo">
+				<a href="#"><img src="images/Logo-Portfolio.svg" alt="Logo"></a>
+			</div><!-- image container logo -->
+			
+			
+			<h1 class="Website-Title">Javier Gonzalez</h1>
+			
+			
+			
+			<div class="tagline">
+				<h2>Art, Animation, Game Design, Illustration...</h2>
+			</div><!-- tagline -->
+				
+		</header>
+		
+		<div class="row">
+			
+		<div class="col-12">
+			<div class="game-design-headline">
+				<h2>Game Design</h2>
+			</div>
+		</div><!-- col 12 -->
+			
+		<div class="col-12">
+		<div class="page-content">
+			<!-- adds tabs navigation-->
+			<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+				<li class="nav-item"><!-- board-games tab-->
+   					<a class="nav-link active" id="pills-board-games-tab" data-toggle="pill" href="#pills-board-games" role="tab" aria-controls="pills-board-games" aria-selected="true"><h2>Board Games</h2></a>
+  				</li>
+				<li class="nav-item"><!-- 2D-games tab-->
+    				<a class="nav-link" id="pills-2D-games-tab" data-toggle="pill" href="#pills-2D-games" role="tab" aria-controls="pills-2D-games" aria-selected="false"><h2>2D Games</h2></a>
+  				</li>
+  				<li class="nav-item"><!-- 3D-games tab-->
+    				<a class="nav-link" id="pills-3D-games-tab" data-toggle="pill" href="#pills-3D-games" role="tab" aria-controls="pills-3D-games" aria-selected="false"><h2>3D Games</h2></a>
+  				</li>
+  				
+			</ul><!-- tabs of navigation-->
+			
+			<div class="tab-content" id="pills-tabContent">
+  				<!-- board-games content-->
+				<div class="tab-pane fade show active" id="pills-board-games" role="tabpanel" aria-labelledby="pills-board-games-tab">
+					<div class="row">
+						<div class="col-8">
+							<div class="Game-title">
+								<h1>Deal or Scam</h1>
+								<h2>The Party Game</h2>
+							</div>
+							
+							<div class="game-info">
+								
+								<p> This is a party board game played with cards. It consists on sellers and buyers trying to sell or buy products respectively. The catch is that one of the sellers is a scammer so all the products he or she sells are fake or not real. Each player gets a role card and according to what they get they will try to buy or sell as many products as they can. <br><br>
+								This was the first project on my Board Game Design Class. It was inspired on card version of Monopoly and was mostly illustrated by me and my classmate Tai-Shan Hopkins. Game Designers: Tai-Shan Hopkins, Greg Cohen and me. Besides being a game designer I also was the Project Manager of for the game. </p>
+							</div><!-- game info-->
+							
+							<iframe class="game-video" src="https://www.youtube.com/embed/-IC9l9pqIAs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							
+							 
+						</div><!-- col 8 -->
+						
+						<div class="col-4">
+							<div id="carouselDealOrScamImages" class="carousel slide" data-ride="carousel">
+          						<ol class="carousel-indicators">
+            						<li data-target="#carouselDealOrScamImages" data-slide-to="0" class="active"></li>
+            						<li data-target="#carouselDealOrScamImages" data-slide-to="1"></li>
+            						<li data-target="#carouselDealOrScamImages" data-slide-to="2"></li>
+									<li data-target="#carouselDealOrScamImages" data-slide-to="3"></li>
+          						</ol>
+
+          						<div class="carousel-inner">
+
+            						<div class="carousel-item active">
+             							<img src="images/deal-or-scam-images/logo.jpg" class="d-block w-100" alt="deal-logo">
+          							</div><!-- carousel-item -->
+
+          							<div class="carousel-item">
+           								<img src="images/deal-or-scam-images/close-cards.jpg" class="d-block w-100" alt="role-cards">
+        							</div><!-- carousel-item -->
+
+        							<div class="carousel-item">
+           								<img src="images/deal-or-scam-images/close-products.jpg" class="d-block w-100" alt="product-cards">
+        							</div><!-- carousel-item -->
+									
+									<div class="carousel-item">
+           								<img src="images/deal-or-scam-images/game-cards.jpg" class="d-block w-100" alt="money-descriptor-cards">
+        							</div><!-- carousel-item -->
+
+      							</div><!-- carousel-inner -->
+
+      							<a class="carousel-control-prev" href="#carouselDealOrScamImages" role="button" data-slide="prev">
+        							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        							<span class="sr-only">Previous</span>
+      							</a>
+
+      							<a class="carousel-control-next" href="#carouselDealOrScamImages" role="button" data-slide="next">
+        							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+        							<span class="sr-only">Next</span>
+      							</a>
+    						</div><!-- carousel -->
+							<h2 class="caption">Assets used in the game</h2>
+							
+							<div class="game-doc-icon">
+							<a href="https://docs.google.com/document/d/1pzO-uiXzBlWEHz1FFSrhUizUhwluu1ohHSz0-PyEaJE/edit?usp=sharing"><img src="https://img.icons8.com/color/250/000000/google-docs.png" alt="doc-icon"></a>
+							<h2 class="caption">Game Rules</h2>
+							</div><!-- game doc icon-->
+							
+							<div class="game-slides-icon">
+							<a href="https://docs.google.com/presentation/d/1eewQA3ZhYUDmgQ7NPLc2zPMAKyxLn5-D-aU_y4Cmd-Q/edit?usp=sharing"><img src="https://img.icons8.com/color/240/000000/google-slides.png" alt="slides-icon"></a>
+							<h2 class="caption">Game Presentation</h2>
+							</div><!-- game slides icon-->
+							
+							<div class="game-play-button">
+								<a href="https://drive.google.com/drive/folders/1bJTwGmNn9AJv6ZjNjK7CUBsR3iF0TpoQ?usp=sharing"><h2> Play!</h2></a>
+							</div><!-- game button-->
+							
+						</div><!-- col 4 -->
+					
+						
+							
+						<div class="col-8">
+							<div class="Game-title">
+								<h1>Primaries Under Attack!</h1>
+								<h2>The Escape Room</h2>
+							</div><!-- game title -->
+							
+							<div class="game-info">
+								<p> This was supposed to be an Escape Room game, where a set of players would be selected by the secret organization called "House of Anarchy" to be used as pawns in their plan to ruin the Democratic Primaries of 2020! The player must solve the puzzle in order to keep the candidates they like or else the House of Anarchy will take matters to their own hands... and not in a good way. Due to the COVID-19 situation, the game was cancelled and never continued further development than this game document. </p>
+							</div><!-- game info-->
+							 
+						</div><!-- col 8 -->
+						
+						<div class="col-4">
+							<img src="images/primaries-under-attack-images/Logo.jpg"  class="escape" alt="primaries-logo">
+							
+							<h2 class="caption">Logo of the game</h2>
+							
+							<div class="game-doc-icon">
+							<a href="https://docs.google.com/document/d/1MfwRrIzwiDKWzUfJ9YJpj-Be-G1AT8OE6cuC12hch90/edit?usp=sharing"><img src="https://img.icons8.com/color/250/000000/google-docs.png" alt="doc-icon"></a>
+							<h2 class="caption">Game Document</h2>
+							</div><!-- game doc icon-->
+						</div><!-- col 4 -->
+						
+							<div class="col-8">
+								
+								<div class="Game-title">
+								<h1>Primaries Under Attack!</h1>
+								<h2>The Escape Room</h2>
+							</div><!-- game title -->
+								
+								<div class="game-info">
+								<p> This is the final project of my Board Game Design Class. Due to the COVID-19 situation, we were force to make an online version of a game, and we decided to keep the idea of the previous game but adapt it to a digital medium. So, the main story of the game is the same as the previous one, a secret organization called House of Anarchy is trying to ruin Democratic Primaries of 2020. The fate of democracy depends on the player, if he or she is able to win through all the puzzles they will save the elections. If not, 2020 elections are doomed! This was done in using Unity and the game designers are: Greg Cohen, Tai-Shan Hopkins, Caleb Dyson Marshall, Keita Takeda and me. Again, I took the role of Project Manager for this game as well. </p>
+								</div><!-- game info-->
+								
+							 
+								<iframe class="game-video" src="https://www.youtube.com/embed/1ZpzBvgEBz4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								
+						</div><!-- col 12 -->
+						
+						<div class="col-4">
+							<div id="carouselPrimariesImages" class="carousel slide" data-ride="carousel">
+          						<ol class="carousel-indicators">
+            						<li data-target="#carouselPrimariesImages" data-slide-to="0" class="active"></li>
+            						<li data-target="#carouselPrimariesImages" data-slide-to="1"></li>
+            						<li data-target="#carouselPrimariesImages" data-slide-to="2"></li>
+									<li data-target="#carouselPrimariesImages" data-slide-to="3"></li>
+									<li data-target="#carouselPrimariesImages" data-slide-to="4"></li>
+									<li data-target="#carouselPrimariesImages" data-slide-to="5"></li>
+          						</ol>
+
+          						<div class="carousel-inner">
+
+            						<div class="carousel-item active">
+             							<img src="images/primaries-under-attack-images/primaries-under-attack-cover.jpg" class="d-block w-100" alt="primaries-cover">
+
+          							</div><!-- carousel-item -->
+
+          							<div class="carousel-item">
+           								<img src="images/primaries-under-attack-images/dialogue-screen.jpg" class="d-block w-100" alt="intro-scene">
+        							</div><!-- carousel-item -->
+
+        							<div class="carousel-item">
+           								<img src="images/primaries-under-attack-images/candidates-screen.jpg" class="d-block w-100" alt="candidate-screens">
+        							</div><!-- carousel-item -->
+									
+									<div class="carousel-item">
+           								<img src="images/primaries-under-attack-images/puzzle-1-nomal.jpg" class="d-block w-100" alt="puzzle-1">
+        							</div><!-- carousel-item -->
+									
+									<div class="carousel-item">
+           								<img src="images/primaries-under-attack-images/puzzle-2-nomal.jpg" class="d-block w-100" alt="puzzle-2">
+        							</div><!-- carousel-item -->
+									
+									<div class="carousel-item">
+           								<img src="images/primaries-under-attack-images/puzzle-3-nomal.jpg" class="d-block w-100" alt="puzzle-3">
+        							</div><!-- carousel-item -->
+
+      							</div><!-- carousel-inner -->
+
+      							<a class="carousel-control-prev" href="#carouselPrimariesImages" role="button" data-slide="prev">
+        							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        							<span class="sr-only">Previous</span>
+      							</a>
+
+      							<a class="carousel-control-next" href="#carouselPrimariesImages" role="button" data-slide="next">
+        							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+        							<span class="sr-only">Next</span>
+      							</a>
+    						</div><!-- carousel -->
+							
+							<h2 class="caption">Screenshots of the game</h2>
+							
+							<div class="game-doc-icon">
+							<a href="https://docs.google.com/document/d/1U0l2-XzvvPUQRPTuuqs3exqrqTkXkv5aBmuZhS-rtbc/edit?usp=sharing"><img src="https://img.icons8.com/color/250/000000/google-docs.png" alt="doc-icon"></a>
+							<h2 class="caption">Game Rules</h2>
+							</div><!-- game doc icon-->
+							
+							<div class="game-slides-icon">
+							<a href="https://docs.google.com/presentation/d/1jUvml0bfsmgfmHSQa8lA5ZJvqs9pb6TyDaa1FCecHbE/edit?usp=sharing"><img src="https://img.icons8.com/color/240/000000/google-slides.png" alt="slides-icon"></a>
+							<h2 class="caption">Game Presentation</h2>
+							</div><!-- game slides icon-->
+							
+							<div class="game-play-button">
+								<a href="https://greg-cohen.itch.io/primaries-under-attack"><h2> Play!</h2></a>
+							</div><!-- game button-->
+							
+							
+						</div><!-- col 4 -->
+						
+					</div><!-- row-->
+				</div><!-- board-games content-->
+				
+				<!-- 2D-games content-->
+				<div class="tab-pane fade" id="pills-2D-games" role="tabpanel" aria-labelledby="pills-2D-games-tab">
+					<div class="row">
+						<div class="col-8">
+								
+								<div class="Game-title">
+								<h1>Knock-out Agent!</h1>
+								<h2>Make a guess...</h2>
+							</div><!-- game title -->
+								
+								<div class="game-info">
+								<p>This was my very first game design ever. The gameplay is very simple. It’s just a computer guessing a number. In the game, you (The player) are the best hacker in the country. With your knowledge and computer skills, you have to help the field agent Scott Nickerson (computer). You are both part of a secret organization of spies that are in charge of the safety of the entire country. <br><br>
+
+   								In this mission you have to kidnap the CEO of NOLAN Technologies, who with his resources is trying to cause chaos in the entire world. The mission is to take him in custody but nobody can figure it out or he will fight back with his power and money. In order to do so, you have to tell agent Nickerson the exact number of ml of a knock-out drug he has to use in order to sedate him and take him in custody. If the agent doesn’t give him enough amount of the drug he will wake up easily and the mission will fail; on the other hand too much of the drug might overdose him and would end up killing him. To succeed, he needs to guess the exact number he has to give to this mischievous CEO. He has 5 chances to guess right the number. </p>
+								</div><!-- game info-->
+								
+							 
+								
+								<iframe class="game-video" src="https://www.youtube.com/embed/21zuzKHfChQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								
+						</div><!-- col 12 -->
+						
+						<div class="col-4">
+							<div id="carouselAgentImages" class="carousel slide" data-ride="carousel">
+          						<ol class="carousel-indicators">
+            						<li data-target="#carouselAgentImages" data-slide-to="0" class="active"></li>
+            						<li data-target="#carouselAgentImages" data-slide-to="1"></li>
+            						<li data-target="#carouselAgentImages" data-slide-to="2"></li>
+									<li data-target="#carouselAgentImages" data-slide-to="3"></li>
+          						</ol>
+
+          						<div class="carousel-inner">
+
+            						<div class="carousel-item active">
+             							<img src="images/2d-and-3d-images/knock-out.jpg" class="d-block w-100" alt="agent-cover">
+
+          							</div><!-- carousel-item -->
+
+          							<div class="carousel-item">
+           								<img src="images/2d-and-3d-images/knock-out2.jpg" class="d-block w-100" alt="intro-scene">
+        							</div><!-- carousel-item -->
+
+        							<div class="carousel-item">
+           								<img src="images/2d-and-3d-images/knock-out3.jpg" class="d-block w-100" alt="guess-screen">
+        							</div><!-- carousel-item -->
+									
+									<div class="carousel-item">
+           								<img src="images/2d-and-3d-images/knock-out4.jpg" class="d-block w-100" alt="lose-screen">
+        							</div><!-- carousel-item -->
+									
+
+      							</div><!-- carousel-inner -->
+
+      							<a class="carousel-control-prev" href="#carouselAgentImages" role="button" data-slide="prev">
+        							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        							<span class="sr-only">Previous</span>
+      							</a>
+
+      							<a class="carousel-control-next" href="#carouselAgentImages" role="button" data-slide="next">
+        							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+        							<span class="sr-only">Next</span>
+      							</a>
+    						</div><!-- carousel -->
+							
+							<h2 class="caption">Screenshots of the game</h2>
+							
+							<div class="game-doc-icon">
+							<a href="https://drive.google.com/file/d/1F-krms3QB8SPeqwqo66VVxYfg1Z8E285/view?usp=sharing"><img src="https://img.icons8.com/color/250/000000/google-docs.png" alt="doc-icon"></a>
+							<h2 class="caption">Game Design Document</h2>
+							</div><!-- game doc icon-->
+							
+							<div class="game-play-button">
+								<a href="https://javiegonzr.itch.io/knock-out-agent"><h2> Play!</h2></a>
+							</div><!-- game button-->
+							
+							
+						</div><!-- col 4 -->
+						
+						
+						<div class="col-8">
+								
+								<div class="Game-title">
+								<h1>Murder in a Shower</h1>
+								<h2>Build your own path game</h2>
+							</div><!-- game title -->
+								
+								<div class="game-info">
+								<p> A Murder in a Shower is a storytelling game where the player makes decisions, and based on them the story takes different paths. This game is based on the movie Psycho, specially the iconic murder scene in the shower. <br><br>
+
+   								This game tells the story of Mary Harries, a woman who needs to get to an important meeting in the other side of the country. But she has trouble on her way there and finds herself having to spend the night at the Murphy Motel; a small and mysterious place right in the middle of nowhere… What she does not know is that if she is not careful, she might be walking into her own death. The player will be the character Mary, and throughout the game she will be offered the chance to defend herself by keeping some objects to attack with (knife). Finally, while she showers, she either dies or kills her attacker. Either way, a murder takes place in a shower.  </p>
+								</div><!-- game info-->
+								
+							 
+								
+								<iframe class="game-video" src="https://www.youtube.com/embed/QmPYqoidlVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								
+						</div><!-- col 12 -->
+						
+						<div class="col-4">
+							<div id="carouselMurderImages" class="carousel slide" data-ride="carousel">
+          						<ol class="carousel-indicators">
+            						<li data-target="#carouselMurderImages" data-slide-to="0" class="active"></li>
+            						<li data-target="#carouselMurderImages" data-slide-to="1"></li>
+            						<li data-target="#carouselMurderImages" data-slide-to="2"></li>
+									<li data-target="#carouselMurderImages" data-slide-to="3"></li>
+          						</ol>
+
+          						<div class="carousel-inner">
+
+            						<div class="carousel-item active">
+             							<img src="images/2d-and-3d-images/murder.jpg" class="d-block w-100" alt="murder-cover">
+
+          							</div><!-- carousel-item -->
+
+          							<div class="carousel-item">
+           								<img src="images/2d-and-3d-images/murder2.jpg" class="d-block w-100" alt="story-1">
+        							</div><!-- carousel-item -->
+
+        							<div class="carousel-item">
+           								<img src="images/2d-and-3d-images/murder3.jpg" class="d-block w-100" alt="story-2">
+        							</div><!-- carousel-item -->
+									
+									<div class="carousel-item">
+           								<img src="images/2d-and-3d-images/murder4.jpg" class="d-block w-100" alt="story-3">
+        							</div><!-- carousel-item -->
+									
+
+      							</div><!-- carousel-inner -->
+
+      							<a class="carousel-control-prev" href="#carouselMurderImages" role="button" data-slide="prev">
+        							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        							<span class="sr-only">Previous</span>
+      							</a>
+
+      							<a class="carousel-control-next" href="#carouselMurderImages" role="button" data-slide="next">
+        							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+        							<span class="sr-only">Next</span>
+      							</a>
+    						</div><!-- carousel -->
+							
+							<h2 class="caption">Screenshots of the game</h2>
+							
+							<div class="game-doc-icon">
+							<a href="https://drive.google.com/file/d/1XswTuB-_b4wEJQvF62v_q_YYg6lZXRcA/view?usp=sharing"><img src="https://img.icons8.com/color/250/000000/google-docs.png" alt="doc-icon"></a>
+							<h2 class="caption">Game Design Document</h2>
+							</div><!-- game doc icon-->
+							
+							<div class="game-play-button">
+								<a href="https://javiegonzr.itch.io/murder-in-a-shower"><h2> Play!</h2></a>
+							</div><!-- game button-->
+							
+							
+						</div><!-- col 4 -->
+									
+					</div><!-- row-->
+				</div><!-- production content-->
+				
+  				<!-- 3D-games content-->
+				<div class="tab-pane fade" id="pills-3D-games" role="tabpanel" aria-labelledby="pills-3D-games-tab">
+					<div class="row">
+						
+					</div><!-- row-->
+				</div><!-- 3D-games content-->
+				
+			</div><!-- tab content -->
+		</div><!-- page content-->
+		</div><!-- col 12 -->
+		
+		</div><!-- row -->
+		
+		<footer>
+		
+		</footer>
+	
+		
+	</div><!-- container -->
+	
+	
+	
+	<!-- load our external JavaScript assets such as Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

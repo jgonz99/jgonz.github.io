@@ -1,0 +1,241 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Javier Gonzalez: Home</title>
+	
+	
+<!-- load custom font kit -->	
+<link rel="stylesheet" href="webfontkit-20200225-150217/stylesheet.css" type="text/css" charset="utf-8" />
+
+<!-- Google Fonts -->	
+<link href="https://fonts.googleapis.com/css2?family=Neucha&family=Passion+One&display=swap" rel="stylesheet">
+
+<!-- load Bootstrap's CSS-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	
+<!-- stylesheet -->
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<!-- responsive stylesheet -->
+<link href="css/responsive-styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="sidebar" id="mySidebar">
+			
+			<div class="menu-headline">
+				<h1>Menu</h1>
+			</div><!-- menu headline -->
+				<a class="closebtn" href="javascript:void(0)" onclick="closeNav()">&times;</a>
+				<a href="index.html"><h2>Home</h2></a>
+				<a href="about-me.html" target="_blank"><h2>About me</h2></a>
+				<h2 class="sidebar-headiline">Portfolio</h2>
+				<a href="Game-Design.html" target="_blank"><h3 class="portfolio-side">Game Design</h3></a>
+				<a href="#" target="_blank"><h3 class="portfolio-side">Animation</h3></a>
+				<a href="#" target="_blank"><h3 class="portfolio-side">Illustration</h3></a>
+				<a href="#" target="_blank"><h3 class="portfolio-side">Drawings</h3></a>
+				<a href="#" target="_blank"><h3 class="portfolio-side">Others</h3></a>
+		</div><!-- sidebar -->
+		<div id="main">
+				<div class="openbtn" onclick="openNav()">
+					<div class="hamburger-menu">
+						<img src="images/Hamburger-menu.svg" alt="menu">
+					</div><!-- hamburger-menu -->
+				</div>
+			</div>
+			<script>
+			                 function openNav() {
+			                     document.getElementById("mySidebar").style.width = "250px";
+			                     document.getElementById("main").style.marginLeft = "250px";
+			                 }
+			                 
+			                 function closeNav() {
+			                     document.getElementById("mySidebar").style.width = "0";
+			                     document.getElementById("main").style.marginLeft= "0";
+			                 }
+			</script>
+		<header>
+			<div class="imageContainer-logo">
+				<a href="#"><img src="images/Logo-Portfolio.svg" alt="Logo"></a>
+			</div><!-- image container logo -->
+			
+			
+			<h1 class="Website-Title">Javier Gonzalez</h1>
+			
+			
+			
+			<div class="tagline">
+				<h2>Art, Animation, Game Design, Illustration...</h2>
+			</div><!-- tagline -->
+				
+		</header>
+		
+		<div class="row">
+			
+		<div class="col-12">
+			<div id="carouselHighlights" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselHighlights" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselHighlights" data-slide-to="1"></li>
+            <li data-target="#carouselHighlights" data-slide-to="2"></li>
+          </ol>
+
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+            	<div class="imageContainer-highlights">
+					<img src="images/Sayona-Shot1.jpg"  id="sayona-image" alt="highlights-sayona">
+				</div><!-- image container-highlights -->
+				
+				<div class="highlights-info">
+				<h1>SAYONA</h1>
+				<h2>a short story...</h2>	
+				<p>3D animated student short film. Winner for the “Best animated short Film” of the 2019 DC South Asian Film Festival, hosted in Montgomery College. The short is inspired by the Venezuelan folk story about a gohst that hunts the souls of men who cheat on the spouses. 
+				
+				</p>
+
+				</div><!-- highlights- info -->
+     
+          </div><!-- carousel-item -->
+
+          <div class="carousel-item">
+           <div class="imageContainer-highlights">
+					<img src="images/WitchsMaze.jpg" alt="highlights-witchsMaze">
+				</div><!-- image container-highlights -->
+				
+				<div class="highlights-info">
+				<h1 id="WM-headline">Witch's Maze</h1>
+				<h2 id="WM-tagline">a fantastic <br> <span class="WM-Tag-adventure">adventure...</span></h2>
+				<p id="WM-text">RPG adventure game about a hero that has to go through a maze in order to fight an evil witch that has cursed the kingdom. This was my last project for my 3D Game Design and coding for gaming. 
+				</p>
+
+				</div><!-- highlights- info -->
+        </div><!-- carousel-item -->
+
+        <div class="carousel-item">
+          <div class="imageContainer-highlights">
+					<img src="images/tutu.jpg" alt="highlights-tutu">
+				</div><!-- image container-highlights -->
+				
+				<div class="highlights-info">
+				<h1>TUTU</h1>
+				<h2>an illustrated music video...</h2>
+				<p>This is was a project for my video editing class, where we had to make a music video out of images and 'animate them'. The song is called Tutu, and the singer is Camilo Echeverry, a Colombian singer. 
+				</p>
+
+				</div><!-- highlights- info -->
+        </div><!-- carousel-item -->
+
+      </div><!-- carousel-inner -->
+
+      <a class="carousel-control-prev" href="#carouselHighlights" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#carouselHighlights" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- carousel -->	
+			
+		</div><!-- col 12 -->
+			
+		<div class="col-9">
+	
+			<div class="rounded-square">
+				<h1>About me</h1>
+				<h2>Artist, Designer, Animator...</h2>
+				<p>Hello! As you can tell, my name is Javier Gonzalez. I am 21 years old, and I am currently a Digital Animation and Game Design and Simulation student located in Maryland. I was born and raised in Maracaibo, Venezuela. <br><br>I moved to the U.S. when I was 18 to get my degree. Ever since then, I have been working on my art and skills very hard, and here is a little demonstration of the work I have done the past few years. 
+				</p>
+			</div><!-- rounded-square -->
+		</div><!-- col 9 -->
+		
+		<div class="col-3">
+			<div class="imageContainer-about-me">
+				<img src="images/about-me.jpg" alt="about-me">
+			</div><!-- image container-highlights -->
+		</div><!-- col 3 -->
+		
+		
+			
+		<div class="col-6">
+				
+			<div class="rounded-square" id="porfolio">
+			
+			<h1>Portfolio</h1>
+			<div class="category" >
+				<h3 id="game-design"><a href="Game-Design.html">Game Design</a></h3>
+				<h3 id="animation"><a href="#">Animation</a></h3>
+				<h3 id="illustration"><a href="#">Illustration</a></h3>
+				<h3 id="drawing"><a href="#">Drawings</a></h3>
+				<h3 id="other"><a href="#">Other</a></h3>
+				<!--<img src="images/game-design-image.jpg" alt="game-design-cat">-->
+			</div><!-- game design category -->
+				
+		
+		
+		</div><!-- rounded-square -->
+		</div><!-- col 6 -->
+			
+		<div class="col-6">
+		</div><!-- col 6 -->
+			
+		
+			
+		<div class="col-8">
+			
+			<div class="rounded-square" id="connect">
+				<h1>Connect</h1>
+			<h2>Contact me by email: jgonz8199@gmail.com</h2>
+			<h2>Find me on social media!</h2>
+				
+
+			<div class="social-media-link">
+			<a href="https://www.instagram.com/javigonzart/?hl=en" class="social-media-links">
+				<img src="images/Instagram-icon.svg" alt="Instagram">
+				<p><span class="headline-text">Instagram:</span>  @javigonzart</p>
+				
+			</a>
+			<br class="clearfloat">
+			</div><!-- social-media-link -->
+
+
+			<div class="social-media-link">
+			<a href="https://www.youtube.com/user/javier81991/featured?view_as=subscriber" class="social-media-links">
+				<img src="images/Youtube-icon.svg" alt="Youtube">
+				<p><span class="headline-text">YouTube:</span>  javier81991</p>
+				
+			</a>
+			<br class="clearfloat">
+			<h2>Check out my latest Youtube videos!</h2>
+				<iframe allowfullscreen id="wallsio-iframe" src="https://walls.io/h7bpc?nobackground=1&amp;show_header=0" style="border:0;height:300px;width:90%" title="My social wall"></iframe>
+			</div><!-- social-media-link -->
+			</div><!-- rounded-square -->
+				
+		</div><!-- col 8 -->
+
+		<div class="col-4">
+		</div><!-- col 4-->
+			
+		</div><!-- row -->
+		
+		<footer>
+		
+		</footer>
+	
+		
+	</div><!-- container -->
+	
+	
+	
+	<!-- load our external JavaScript assets such as Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

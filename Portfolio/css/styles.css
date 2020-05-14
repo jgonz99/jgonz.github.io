@@ -1,0 +1,605 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: 'Neucha', cursive;
+}
+h1{
+	font-family: 'rastazmregular';
+	font-weight: 100;
+}
+
+h2{
+	font-family: 'Passion One', cursive;
+	font-weight: 300;
+}
+h3{
+	font-family: 'rastazmregular';
+	font-weight: 100;
+}
+.container{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* HAMBURGER MENU */
+
+.sidebar {
+	height: 100%;
+	/* 100% Full-height */
+	width: 0;
+	/* 0 width - change this with JavaScript */
+	position: fixed;
+	/* Stay in place */
+	z-index: 2;
+	/* Stay on top */
+	top: 0;
+	right: 0;
+	background-color: rgba(65,61,59,0.90);
+	/* white*/
+	overflow-x: hidden;
+	/* Disable horizontal scroll */
+	padding-top: 100px;
+	/* Place content 60px from the top */
+	transition: 0.5s;
+	/* 0.5 second transition effect to slide in the sidebar */
+}
+/* The sidebar links */
+
+.sidebar a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	display: block;
+	transition: 0.3s;
+}
+.sidebar h3{
+	font-family: 'Neucha', cursive;
+}
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover h2 {
+	color: rgba(65,61,59,1.00);
+	background-color: rgba(211,211,211,1.00);
+	border-radius: 20px;
+	padding: 2% 5% 2% 2%;
+}
+
+.sidebar a:hover h3 {
+	color: rgba(65,61,59,1.0);
+	background-color: rgba(211,211,211,1.00);
+	border-radius: 20px;
+}
+/* Position and style the close button (top right corner) */
+
+.sidebar .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+.menu-headline{
+	width: 90%;
+	position: absolute;
+	top: 3%;
+	right: 0%;
+	background-color:rgba(211,211,211,1.00);
+	padding: 5% 10% 1% 5%;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.menu-headline h1{
+	font-size: 5vw;
+	line-height: 4vw;
+}
+
+.sidebar-headiline{
+	padding: 8px 8px 8px 32px; 
+	color: white;
+}
+.portfolio-side{
+	padding-left: 10%;
+}
+/* The button used to open the sidebar */
+
+.openbtn {
+	font-size: 30px;
+	cursor: pointer;
+	border: none;
+	float: left;
+	color: gray;
+	font-family: 'caveat'
+}
+.openbtn:hover {
+	background-color: none;
+	color: black;
+}
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+#main {
+	transition: .5s;
+	/* If you want a transition effect */
+	padding: 20px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+	.sidebar {
+		padding-top: 15px;
+	}
+	.sidebar a {
+		font-size: 18px;
+	}
+}
+
+/* HEADER */
+
+header{
+	background-color: black;
+	position: relative;
+	margin: 2% 0%;
+	margin-top: 5%;
+	border-radius: 15px;
+	text-align: center;
+}
+
+.imageContainer-logo{
+	position: absolute;
+	width: 20%;
+	top:-20%;
+	left: 3%;
+	
+}
+
+.Website-Title{
+	color: white;
+	font-size: 8.5vw;
+}
+.Website-Title h1{
+	margin-left: 10%;
+	font-weight: 100;
+}
+
+.hamburger-menu{
+	width: 7%;
+	position: absolute;
+	top: 20%;
+	right: 10%;
+	z-index: 1;
+}
+
+.tagline{
+	width: 70%;
+	background-color: #2E2B2B;
+	position: absolute;
+	bottom: -40%;
+	left: 28%;
+	z-index: -1;
+	padding: .5% 0%;
+	border-radius: 15px;
+}
+.tagline h2{
+	color: white;
+	font-size: 3vw;
+	padding: 2.5% 1% 0;
+	margin: 0;
+}
+
+/* HIGHLIGHTS */
+
+#carouselHighlights{
+	width: 100%;
+	border-radius: 20px;
+	margin-top: 6%;
+	margin-left: 2.5%;
+}
+
+.carousel-inner{
+	border-radius: 20px;
+}
+
+.imageContainer-highlights{
+	float: left;
+	width: 70%;
+}
+
+.imageContainer-highlights img{
+	border-radius: 20px;
+	width: 100%;
+}
+
+.highlights-info{
+	float: left;
+	width: 25%;
+	margin-top: 1.5%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	background-color: #888888;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.highlights-info h1{
+
+	font-size: 6vw;
+	color: white;
+	font-weight: 50;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 0;
+	padding: 0;
+	line-height: 6vw;
+
+}
+
+.highlights-info h2{
+
+	font-size: 2.8vw;
+	color: #2E2B2B;
+	margin-top: 0;
+	margin-bottom: 5%;
+	padding: 0;
+	line-height: 1.5vw;
+
+}
+.highlights-info p{
+	background-color: #5C5C5C;
+	color: white;
+	padding: 5%;
+	border-radius: 20px;
+	margin-bottom: 5%;
+	font-size: 1.25vw;
+}
+
+#WM-headline{
+	font-size: 5.25vw;
+	line-height: 4.5vw;
+	margin-top: 7%;
+}
+#WM-tagline{
+	/*font-size: 1.75vw;
+	line-height: 1.5vw;*/
+
+}
+.WM-Tag-adventure{
+	margin-left: 21%;
+}
+#tutu{
+	font-size: 6.75vw;
+	margin-bottom: 3%;
+}
+
+#highlights-slide-next {
+	margin-right: 25%;
+}
+#highlights-indicators{
+	margin-right: 42.5%;
+}
+
+/* ABOUT ME */
+.rounded-square{
+	width: 100%;
+	margin-top: 30%;
+	border: solid;
+	border-width: 8px;
+	border-radius: 20px;
+	position: relative;
+	padding-top: 5%;
+}
+
+.rounded-square h1{
+	font-size: 8vw;
+	position: absolute;
+	top:-20%;
+	left: 15%;
+	background-color: white;
+}
+.rounded-square h2{
+	font-size: 3vw;
+	margin-left: 12%;
+}
+.rounded-square p{
+	font-size: 1.5vw;
+	margin-left: 10%;
+	font-weight: 600;
+	padding-right: 30%;
+}
+.imageContainer-about-me{
+	width: 100%;
+	position: absolute;
+	top: 10%;
+	left: -80%;
+	
+}
+.imageContainer-about-me img{
+	width: 140%;
+	border-radius: 20px;
+}
+
+/* PORTFOLIO MENU */
+
+#porfolio{
+	height: 1700px;
+}
+#porfolio h1{
+	top:-3%;
+	left: 10%;
+}
+
+.category{
+	position: absolute;
+	top: 4%;
+	left: 20%;
+	width: 150%;
+}
+.category h3{
+	font-size: 8vw;
+	text-align: center;
+	margin: 0% 5% 5%;
+	padding: 10% 5%;
+	border-radius: 30px;
+}
+.category a:link{
+	color: white;
+	background-color: rgba(0,0,0,0.60);
+	padding: 3% 6%;
+	border-radius: 15px;
+}
+.category a:hover{
+	background-color: rgba(0,0,0,0.90);
+
+}
+.category a:visited{
+	color: white;
+}
+#game-design{
+	background-image: url("../images/game-design-image.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}
+
+#animation {
+	background-image:url("../images/Sayona-Shot6.jpg");
+	background-size: cover;
+	background-position: left;
+
+}
+
+#illustration{
+	background-image:url("../images/illustrations-image.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+#drawing{
+	background-image:url("../images/drawings-image.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}
+
+#other{
+	background-image:url("../images/other-image.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}
+
+
+/* PORTFOLIO MENU */
+
+#connect{
+	margin-top: 15%;
+	padding-top: 7.5%;
+}
+#connect h1{
+	top:-7%;
+	left: 5%;
+	font-size: 7.5vw;
+	margin: 0;
+}
+#connect h2{
+	margin-left: 5%;
+	margin-top: 1%;
+	font-size: 2vw;
+}
+.social-media-link img{
+	width: 20%;
+	margin-left: 5%;
+	margin-bottom: 2%;
+	float: left;
+}
+.social-media-link a:link{
+	color: white;
+	text-decoration: none;
+	margin-top: 30%;
+	
+	
+}
+.social-media-link a:link p{
+	margin-top:8%;
+	background-color: black;
+	float: left;
+	padding: 1% 3%;
+	margin-left: 0;
+	font-size: 2.5vw;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.social-media-link a:visited{
+	color: white;
+	text-decoration: none;
+	
+}
+#wallsio-iframe{
+	margin-left: 5%;
+	margin-bottom: 3%;
+}
+
+/* GAME DESIGN PAGE */
+
+
+.game-design-headline {
+	margin:5% 0% 2% 0%;
+}
+.game-design-headline h2{
+	font-size: 8vw;
+	/*background-color: black;*/
+	color: black;
+	padding-left: 5%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	text-align: center;
+	border:solid;
+	border-width: thick;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	background-color: black;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.nav-item  a{
+	color:  #2E2B2B;
+}
+.nav-item  a h2{
+	font-size: 4vw;
+}
+.nav-item  a:hover{
+	color:  #2E2B2B;
+	background-color: rgba(184,184,184,1.00);
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.mb-3, .my-3 {
+    margin-bottom: 0!important;
+	margin-left: 3%;
+}
+
+.tab-content{
+	border: solid;
+	border-width: 8px;
+	border-radius: 20px;
+	position: relative;
+	border-color: black;
+}
+
+/* GAMES LAYOUT*/
+
+.caption{
+	background-color: #2E2B2B;
+	color: white;
+	padding: 2%;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	font-size: 1.5vw;
+	margin-bottom: 0;
+	margin-right: 0;
+	text-align: center;
+}
+.Game-title h1{
+	margin: 8% 4% 0% 0;
+	font-size: 6vw;
+	color: white;
+	background-color: black;
+	padding: 1% 1% 1% 5%;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+
+}
+.Game-title h2{
+	margin: 0% 40% 2% 0;
+	font-size: 3.5vw;
+	color: white;
+	background-color: #2E2B2B;
+	padding: 1% 1% 1% 5%;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.game-info p{
+	font-size: 1.8vw;
+	margin-left: 4%;
+}
+.game-play-button a:link h2{
+	border:solid;
+	border-width: medium;
+	border-radius: 20px;
+	text-decoration: none;
+	font-size: 5vw;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 15%;
+	text-align: center;
+	
+}
+.game-play-button a{
+	color: #2E2B2B;
+}
+.game-play-button a:hover h2{
+	color: white;
+	background-color: #2E2B2B;
+	border:solid;
+	border-width: medium;
+	border-radius: 20px;
+	text-decoration: none;
+	
+}
+
+#carouselDealOrScamImages, #carouselPrimariesImages, #carouselAgentImages,
+#carouselMurderImages
+
+{
+	margin-right: 4%;
+	margin-bottom: 4%;
+	margin-top: 12%;
+
+	
+}
+.escape{
+	width: 100%;
+	margin-top: 14%;
+}
+
+.game-video{
+	width: 100%;
+	height: 500px;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	margin-bottom: 2%;
+}
+.game-doc-icon img, .game-slides-icon img{
+	margin-left: 15%;
+}
+.doc-slide-headline{
+	margin-left: 15%;
+}
+
+
+
+
+
+
+.clearfloat{
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
