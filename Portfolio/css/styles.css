@@ -22,6 +22,9 @@ h3{
 	margin-left: auto;
 	margin-right: auto;
 }
+.carousel-indicators{
+	z-index: 1;
+}
 
 /* HAMBURGER MENU */
 
@@ -36,7 +39,7 @@ h3{
 	/* Stay on top */
 	top: 0;
 	right: 0;
-	background-color: rgba(65,61,59,0.90);
+	background-color: rgba(65,61,59,1.00);
 	/* white*/
 	overflow-x: hidden;
 	/* Disable horizontal scroll */
@@ -50,10 +53,16 @@ h3{
 .sidebar a {
 	padding: 8px 8px 8px 32px;
 	text-decoration: none;
-	font-size: 25px;
 	color: white;
 	display: block;
 	transition: 0.3s;
+	z-index: 5;
+}
+.sidebar a h2{
+	font-size: 2.5vw;
+}
+.sidebar a h3{
+	font-size: 2vw;
 }
 .sidebar h3{
 	font-family: 'Neucha', cursive;
@@ -90,6 +99,7 @@ h3{
 	padding: 5% 10% 1% 5%;
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
+	
 }
 .menu-headline h1{
 	font-size: 5vw;
@@ -99,6 +109,7 @@ h3{
 .sidebar-headiline{
 	padding: 8px 8px 8px 32px; 
 	color: white;
+	font-size: 2.5vw;
 }
 .portfolio-side{
 	padding-left: 10%;
@@ -163,6 +174,9 @@ header{
 	font-weight: 100;
 }
 
+#main{
+	padding: 0;
+}
 .hamburger-menu{
 	width: 7%;
 	position: absolute;
@@ -224,7 +238,7 @@ header{
 
 .highlights-info h1{
 
-	font-size: 6vw;
+	font-size: 4.5vw;
 	color: white;
 	font-weight: 50;
 	text-align: center;
@@ -237,7 +251,7 @@ header{
 
 .highlights-info h2{
 
-	font-size: 2.8vw;
+	font-size: 2.5vw;
 	color: #2E2B2B;
 	margin-top: 0;
 	margin-bottom: 5%;
@@ -251,7 +265,7 @@ header{
 	padding: 5%;
 	border-radius: 20px;
 	margin-bottom: 5%;
-	font-size: 1.25vw;
+	font-size: 1vw;
 }
 
 #WM-headline{
@@ -287,7 +301,7 @@ header{
 	border-width: 8px;
 	border-radius: 20px;
 	position: relative;
-	padding-top: 5%;
+	padding-top: 7%;
 }
 
 .rounded-square h1{
@@ -446,18 +460,18 @@ header{
 
 
 .game-design-headline {
-	margin:5% 0% 2% 0%;
+	margin:8% 40% 0% 0%;
 }
 .game-design-headline h2{
 	font-size: 8vw;
 	/*background-color: black;*/
 	color: black;
-	padding-left: 5%;
+	padding-left: 10%;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
-	border-bottom-left-radius: 20px;
+	border-bottom-left-radius:20px;
 	border-bottom-right-radius: 20px;
-	text-align: center;
+	text-align: left;
 	border:solid;
 	border-width: thick;
 }
@@ -473,7 +487,7 @@ header{
 	color:  #2E2B2B;
 }
 .nav-item  a h2{
-	font-size: 4vw;
+	font-size: 3vw;
 }
 .nav-item  a:hover{
 	color:  #2E2B2B;
@@ -504,7 +518,7 @@ header{
 	padding: 2%;
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
-	font-size: 1.5vw;
+	font-size: 2vw;
 	margin-bottom: 0;
 	margin-right: 0;
 	text-align: center;
@@ -558,7 +572,9 @@ header{
 }
 
 #carouselDealOrScamImages, #carouselPrimariesImages, #carouselAgentImages,
-#carouselMurderImages
+#carouselMurderImages, #carouselBlockImages,#carouselShipImages,
+#carouselRescueImages, #carouselMazeImages, #carouselDragonImages
+
 
 {
 	margin-right: 4%;
@@ -580,10 +596,77 @@ header{
 	margin-bottom: 2%;
 }
 .game-doc-icon img, .game-slides-icon img{
-	margin-left: 15%;
+	margin-left: 0;
+	width: 100%;
 }
 .doc-slide-headline{
 	margin-left: 15%;
+}
+
+#carouselAboutMeImages{
+	margin-top: 15%;
+}
+#about-me-page img{
+	width: 90%;
+	margin-left: 85%;
+	margin-top: 40%;
+}
+.map{
+	width: 320px;
+	height: 200px;
+	margin-top: 160%;
+	margin-left: 3%;
+	border-radius: 20px;
+}
+.About-me-title h2{
+	margin: 0% 20% 2% 0;
+	font-size: 3vw;
+	color: white;
+	background-color: #2E2B2B;
+	padding: 1% 1% 1% 5%;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.About-me-title h3{
+	/*margin: 0% 40% 2% 0;*/
+	font-size: 2vw;
+	font-family: 'Neucha', cursive;
+	padding: 1% 1% 1% 5%;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.About-me-title p{
+	margin: 0% 40% 2% 0;
+	font-size: 1.2vw;
+	padding: 1% 1% 1% 5%;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.imageContainer-awards img{
+	width: 100%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	border-top-left-radius:20px; 
+	border-bottom-left-radius:20px; 
+}
+
+.awards-video{
+	width: 100%;
+	height: 200px;
+	margin-top: 5%;
+	border-top-left-radius:20px; 
+	border-bottom-left-radius:20px; 
+}
+
+.software-logo img{
+	width: 100%;
+}
+
+
+.timeline{
+	margin-top: 5%;
 }
 
 

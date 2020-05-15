@@ -1,3 +1,477 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+@media (min-width: 375px) 
+{
+	.menu-headline{
+		top: 1%;
+	}
+	.menu-headline h1{
+		font-size: 7vw;
+	}
+	
+	
+	.hamburger-menu {
+		width: 6%;
+		top: 17%;
+		right: 5%;
+		
+	}
+	.Website-Title{
+		font-size: 7.5vw;
+	}
+	.imageContainer-logo{
+		top:-15%;
+		left: 3%;
+	}
+	.tagline h2{
+		font-size: 2.5vw;
+	}
+	#porfolio{
+		height: 1150px;
+	}
+	.imageContainer-about-me img{
+		width: 165%;
+	}
+	
+	.highlights-info p{
+		
+		font-size: 1.05vw;
+	}
+	.highlights-info h1{
+		
+		font-size: 4vw;
+	}
+	.highlights-info h2{
+		
+		font-size: 2vw;
+	}
+	#WM-headline{
+		font-size: 3.25vw;
+	}
+	
+	.map{
+		margin-top: 190%;
+		width: 100%;
+		height: 250px;
+	}
+	.nav-item a h2{
+		font-size: 2.4vw;
+	}
+	.caption h2{
+		font-size: 2vw;
+	}
+	.rounded-square{
+		padding-top: 5%;
+	}
+	.game-video{
+		height: 300px;
+	}
+	
+	.Game-title h1{
+		font-size: 5.2vw;
+	}
+	
+	.Game-title h2{
+		font-size: 3.2vw;
+	}
+	.sidebar a h2{
+		font-size: 3.5vw;
+	}
+	.sidebar a h3{
+		font-size: 2.5vw;
+	}
+	.sidebar-headiline{
+		font-size: 3.5vw;
+	}
+	.sidebar{
+		text-align: left;
+	}
+}
+
+@media (min-width: 414px) 
+{
+	.hamburger-menu {
+		width: 7%;
+		top: 17%;
+		right: 4%;
+		
+	}
+	.tagline h2{
+		font-size: 2.5vw;
+	}
+	#porfolio{
+		height: 1150px;
+	}
+	.imageContainer-about-me img{
+		width: 165%;
+	}
+	
+	.highlights-info p{
+		
+		font-size: 1.07vw;
+	}
+	.highlights-info h1{
+		
+		font-size: 4.5vw;
+	}
+	.highlights-info h2{
+		
+		font-size: 2.2vw;
+	}
+	#WM-headline{
+		font-size: 3.35vw;
+	}
+	.imageContainer-about-me{
+		left:-75%;
+	}
+	
+	
+	.map{
+		margin-top: 190%;
+		width: 100%;
+		height: 300px;
+	}
+	.nav-item a h2{
+		font-size: 2.5vw;
+	}
+	.caption h2{
+		font-size: 2vw;
+	}
+	
+	.game-video{
+		height: 300px;
+	}
+	
+}
+
+
+@media (min-width: 640px) {
+	
+}
+@media (min-width: 768px) {
+	
+}
+@media (min-width: 992px) {
+	.imageContainer-logo{
+		top:-35%;
+		left: 3%;
+	}
+	
+	.highlights-info h1{
+		
+		font-size: 6vw;
+	}
+	.highlights-info h2{
+		
+		font-size: 2.5vw;
+	}
+	.highlights-info p{
+		
+		font-size: 1.3vw;
+	}
+	#WM-headline{
+		font-size: 4.2vw;
+	}
+	#porfolio{
+		height: 1300px;
+	}
+	.About-me-title p{
+		font-size: 1.7vw;
+	}
+}
+@media (min-width: 1120px) {
+	.hamburger-menu {
+		width: 6%;
+		top: 22%;
+		right: 5%;
+		
+	}
+	
+	#porfolio{
+		height: 1500px;
+	}
+	.game-video{
+		height: 400px;
+	}
+}
+@media (min-width: 1200px) {
+	#porfolio{
+		height: 1600px;
+	}
+	
+	.game-video{
+		height: 450px;
+	}
+}
+@media (min-width: 1366px) {
+	#WM-headline{
+		font-size: 3.8vw;
+	}
+	.highlights-info p{
+		
+		font-size: 1.27vw;
+	}
+	
+	#porfolio{
+		height: 1800px;
+	}
+}
+@media (min-width: 1440px) {
+	.hamburger-menu {
+		width: 6%;
+		top: 26%;
+		right: 3%;
+		
+	}
+	
+	.highlights-info h1{
+		
+		font-size: 5.5vw;
+	}
+	
+	.highlights-info p{
+		
+		font-size: 1.15vw;
+	}
+	
+	#WM-headline{
+		font-size: 3.7vw;
+	}
+}
+@media (min-width: 1600px) {
+	.Website-Title{
+		font-size: 6.8vw;
+	}
+	.highlights-info h1{
+		
+		font-size: 5vw;
+	}
+	.highlights-info p{
+		
+		font-size: 1vw;
+	}
+	.imageContainer-logo{
+		top:-25%;
+		left: 3%;
+	}
+	#WM-headline{
+		font-size: 3.3vw;
+	}
+	#connect{
+		padding-top: 10%;
+	}
+}
+
+@media (min-width: 1920px) {
+	.Website-Title{
+		font-size: 5.8vw;
+	}
+	.tagline h2{
+		font-size: 2.2vw;
+	}
+	.highlights-info h1{
+		
+		font-size: 4.5vw;
+	}
+	.highlights-info h2{
+		
+		font-size: 2vw;
+	}
+	.highlights-info p{
+		
+		font-size: 0.8vw;
+	}
+	#porfolio{
+		height: 1900px;
+	}
+	#WM-headline{
+		font-size: 2.7vw;
+	}
+	#connect{
+		padding-top: 15%;
+	}
+	.imageContainer-about-me img{
+		width: 190%;
+	}
+	.imageContainer-about-me {
+		left: -40%;
+	}
+	.category h3{
+		font-size: 6.5vw;
+	}
+	.category{
+		top:7%;
+	}
+	
+
+	
+}
+/*@media (min-width: 414px) 
+{
+	.hamburger-menu {
+		width: 5%;
+		top: 6%;
+		right: 16%;
+		
+	}
+	.tagline h2{
+		font-size: 2.5vw;
+	}
+	#porfolio{
+		height: 1150px;
+	}
+	.imageContainer-about-me img{
+		width: 165%;
+	}
+	
+	.highlights-info p{
+		
+		font-size: 1.07vw;
+	}
+	.highlights-info h1{
+		
+		font-size: 4.5vw;
+	}
+	.highlights-info h2{
+		
+		font-size: 2.2vw;
+	}
+	#WM-headline{
+		font-size: 3.35vw;
+	}
+	.imageContainer-about-me{
+		left:-75%;
+	}
+	
+	
+	.map{
+		margin-top: 190%;
+		width: 100%;
+		height: 300px;
+	}
+	.nav-item a h2{
+		font-size: 2vw;
+	}
+	.caption h2{
+		font-size: 2vw;
+	}
+	
+	.game-video{
+		height: 300px;
+	}
+	
+}*/
+
+
+
+
+
+/*@media only screen and (min-width: 375px) and (max-width: 480px)
+{
+	.hamburger-menu {
+		top: 3%;
+		right: 12%;
+		
+	}
+	#porfolio{
+		height: 1150px;
+	}
+	
+	.highlights-info p{
+		
+		font-size: 1.35vw;
+	}
+	
+	.game-video{
+		height: 400px;
+	}
+	
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .hamburger-menu {
+		width: 6%;
+		top: 17%;
+		right: 12%;
+		
+	}
+	#porfolio{
+		height: 1150px;
+	}
+	
+	.highlights-info p{
+		
+		font-size: 1.35vw;
+	}
+	
+	.game-video{
+		height: 400px;
+	}
+}
+@media only screen and (max-width: 768px)
+{
+	
+	
+}
+@media (max-width: 1200px)
+{
+	.hamburger-menu {
+		top:17%;
+		
+	}
+	#porfolio{
+		height: 1600px;
+	}
+	
+}
+
+@media (max-width: 1369px)
+{
+	.hamburger-menu {
+		top:18%;
+		right: 11%;
+		
+	}
+	#porfolio{
+		height: 1700px;
+	}
+	
+}
+
+@media (max-width: 1120px)
+{
+	.hamburger-menu {
+		top:16%;
+		
+	}
+	#porfolio{
+		height: 1450px;
+	}
+	
+	.rounded-square {
+		padding-top: 5%;
+	}
+	
+}
+@media (max-width: 992px)
+{
+	.hamburger-menu {
+		top:15%;
+		
+	}
+	#porfolio{
+		height: 1300px;
+	}
+	
+	.highlights-info p{
+		
+		font-size: 1.35vw;
+	}
+	
+	.game-video{
+		height: 400px;
+	}
+	
+}*/
+
